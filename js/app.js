@@ -3,7 +3,7 @@ $(document).ready(async function () {
 
     // The classifier
     let classifier
-    let modelURL = 'https://teachablemachine.withgoogle.com/models/4pbv0d_vM/'
+    let modelURL = './model/'
     let disease
     let confidence
 
