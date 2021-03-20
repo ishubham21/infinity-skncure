@@ -13,13 +13,10 @@ $(document).ready(async function () {
     var resultText = document.querySelector('.result-text')
     var resultLoader = document.querySelector('.result-loader')
     var suggestDoc = document.querySelector('#details-pop a')
-    var form = document.querySelector('#upload-file')
 
     //click event listener on cross
     cross.addEventListener('click', () => {
         popup.classList.add('hide-me')
-        form.reset()
-        $('.image-section').hide()
     })
 
     function printResults(results){
