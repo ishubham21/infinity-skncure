@@ -179,12 +179,26 @@ input{
     height: 80px;
     animation: spin 1.5s linear infinite;
 }
-
+.suggest-doc{
+    display: block;
+    margin: 30px 0px;
+    padding: 8px 14px;
+    color: #2a7fba;
+    background-color: #fff;
+    border: 1px solid #2a7fba;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.suggest-doc:hover{
+    background-color: #2a7fba;
+    color: #fff;
+}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
 .hide-me{
     display: none!important;
 }
