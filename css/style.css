@@ -98,8 +98,12 @@ label{
 }
 input{
     font-size: 20px;
+}
+.image-section{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #imageUpload{
     padding: 10px 15px;
@@ -123,6 +127,7 @@ input{
 #imagePreview{
     margin-top: 20px;
     border-radius: 10px;
+    margin: auto;
 }
 #details-pop{
     border: 1px solid #2a7fba;
@@ -163,12 +168,35 @@ input{
     font-weight: 600;
     color: #2a7fba;
     font-size: 27px;
+    text-align: center;
 }
 #details-pop p:nth-of-type(2){
     text-transform: uppercase;
     margin-top: 30px;
     color: #000;
     font-weight: 400;
+}
+@media (max-width: 768px){
+    .input-inner{
+        width: 80%;
+    }
+    label, input{
+        font-size: 20px;
+    }
+    #imagePreview{
+        margin-top: 20px;
+        height: 60%!important;
+        width: 90%!important;
+    }
+    #details-pop{
+        width: 80%;
+    }
+    #details-pop p{
+        font-size: 22px;
+    }
+    #details-pop p:nth-of-type(1){
+        margin-top: 25px;
+    }
 }
 .result-loader{
     margin-top: 40px;
@@ -202,5 +230,21 @@ input{
 .hide-me{
     display: none!important;
 }
-
-
+.real-time{
+    font-size: 25px;
+    margin: 20px 0;
+    color: #2a7fba;
+    font-weight: 600;
+}
+canvas{
+    display: block;
+    border-radius: 10px;
+}
+.real-body{
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin: 0;
+}

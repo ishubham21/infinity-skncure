@@ -27,7 +27,7 @@
             function computeCity(lati, long) {
                 fetch(`https://api.opencagedata.com/geocode/v1/json?q=${lati}+${long}&key=7d0266b0bdde4185b5fb4a9bbf45de2a`)
                     .then(res => res.json())
-                    .then((location) => {
+                    .then(location => {
                         findDoctors(location.results[0].components.state_district)
                     })
                     .catch(() => {
@@ -35,7 +35,7 @@
                     })
             }
 
-            //using openweathermap API to get weather related things
+            //using openweathermap API to get city via reverse geocoding
             function findDoctors(city) {
                 var iframe = document.querySelector('iframe')
                 window.location = `https://www.google.com/search?q=skin+doctors+in+${city}`
