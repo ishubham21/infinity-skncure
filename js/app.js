@@ -1,6 +1,7 @@
 //document if ready
 $(document).ready(async function () {
 
+    console.clear()
     // The classifier
     let classifier
     let modelURL = './model/'
