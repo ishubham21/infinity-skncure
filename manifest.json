@@ -1,0 +1,23 @@
+{
+    "name": "Infinity SknCure",
+    "short_name": "",
+    "background_color": "#fff",
+    "theme_color": "#232323",
+    "description": "A Skin Disease Classifier",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "imgs/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "imgs/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone"
+}

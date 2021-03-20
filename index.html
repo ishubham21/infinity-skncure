@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Skin Disease Classifier</title>
 
+    <link rel="manifest" href="./manifest.json">
+
     <link href="./css/style.css" rel="stylesheet">      
 
     <script src="./js/jquery.min.js"></script>
@@ -26,6 +28,24 @@
             <a href="./realTime.html"><button id="real-time" class="btn-choose" data-target="realTime">Real Time Detection</button></a>
         </div>
     </div>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+                //regestering service worker
+                //service worker is a file which is used to catch data
+                navigator.serviceWorker.register("./service-worker.js")
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(err => {
+                        //registration failed 
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            }
+            else {
+                console.log('No service-worker on this browser');
+            }
+    </script>
 
     <script src="./js/function.js"></script>
 
