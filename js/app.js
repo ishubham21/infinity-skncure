@@ -1,12 +1,30 @@
 //document if ready
 $(document).ready(async function () {
 
-    console.clear()
+    // console.clear()
     // The classifier
     let classifier
     let modelURL = './model/'
     let disease
     let confidence
+
+    var popup = document.querySelector('#details-pop')
+    var cross = document.querySelector('.cross')
+    var resultText = document.querySelector('.result-text')
+    var resultLoader = document.querySelector('.result-loader')
+
+    cross.addEventListener('click', () => {
+        popup.classList.add('hide-me')
+    })
+
+    function printResults(results){
+        disease = results[0].label
+        confidence = results[0].confidence * 100
+
+        resultText.innerText = `${disease}: ${confidence.toFixed(2)}%`
+        resultLoader.classList.add('hide-me')
+
+    }
 
     //function to get results
     function fetchResults(error, results) {
@@ -14,11 +32,7 @@ $(document).ready(async function () {
         // Something went wrong!
         if (error) return console.error(error)
         
-        // Store the label and classify again!
-        disease = results[0].label
-        confidence = results[0].confidence * 100
-
-        alert(`${disease}: ${confidence.toFixed(2)}%`)
+        printResults(results)
     }
     
     //to preload the model
@@ -27,8 +41,8 @@ $(document).ready(async function () {
     }
 
     //to classify the image
-    function classifyImage(img) {
-        classifier.classify(img, fetchResults)
+    async function classifyImage(img) {
+        await classifier.classify(img, fetchResults)
     }
     
     $('.image-section').hide()
@@ -66,6 +80,9 @@ $(document).ready(async function () {
 
         // Show loading animation
         $(this).hide();
+
+        //opening the popup
+        popup.style.display = 'flex'
 
         // Make a prediction through the model on our image.
         const imgFromUser = document.getElementById('imagePreview');

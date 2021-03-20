@@ -1,10 +1,12 @@
+console.clear()
+
 // The video
 let video;
 // For displaying the label
 let label = "waiting..."
 // The classifier
 let classifier
-let modelURL = 'https://teachablemachine.withgoogle.com/models/4pbv0d_vM/'
+let modelURL = './model/'
 
 // STEP 1: Load the model!
 function preload() {
