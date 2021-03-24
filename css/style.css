@@ -23,7 +23,7 @@ a{
     justify-content: center;
     align-items: center;
 
-    transition: 1s ease;
+    transition: 2s ease;
     pointer-events: none;
 }
 .pre-loader img{
