@@ -1,5 +1,7 @@
 # Infinity SknCure
 
+<p align="center"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/logo.png"></p>
+
 A very recent community-based survey has shown that about 60% of the people suffer from skin disorders in India and there are about 600 million affected people throughout the world.
 
 There are a lot of many doctors and researchers doing their best in this field of medical science, there are Machine Learning models present with very high accuracy and precision to help the researchers in this field to make their study more effective, but all these technological advancements are still quite far away from the reach of the general public. 
@@ -46,6 +48,10 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Eczema
 * Melanoma
 * Urticaria
+
+## Images
+
+
 
 # Sources for dataset -
 
