@@ -17,7 +17,7 @@ A web-based skin disease predictor. It is an installable web-app, all you need t
 
 # Get Started Here
 
-You can use this link to navigate through the website- [Blog Website](https://ishubham21.github.io/infinity-skncure) 
+You can use this link to navigate through the website- [Infinity SknCure Website](https://ishubham21.github.io/infinity-skncure) 
 
 ## Want to use the Progressive Web App?
 
