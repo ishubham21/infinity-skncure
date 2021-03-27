@@ -51,7 +51,10 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 
 ## Images
 
-
+<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/1.jpg"></p>
+<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/2.png"></p>
+<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/3.jpg"></p>
+<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/4.jpg"></p>
 
 # Sources for dataset -
 
