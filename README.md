@@ -50,12 +50,12 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Urticaria
 
 ## Images
-
+<!--
 <p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/1.jpg"></p>
 <p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/2.png"></p>
 <p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/3.jpg"></p>
 <p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/4.jpg"></p>
-
+-->
 # Sources for dataset -
 
 ## We've used the following websites to prepare the dataset for this app
