@@ -2,15 +2,23 @@
 
 <p align="center"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/logo.png"></p>
 
-A very recent community-based survey has shown that about 60% of the people suffer from skin disorders in India and there are about 600 million affected people throughout the world.
+A very recent [report](https://www.who.int/neglected_diseases/news/WHO-publishes-pictorial-training-guide-on-neglected-skin-disease/en/) by World Health Organization(WHO) shows that skin diseases are among the most common of all human health afflictions and affect almost 900 million people in the world at any time. Five common conditions account for over 80% of all skin diseases.
 
-There are a lot of many doctors and researchers doing their best in this field of medical science, there are Machine Learning models present with very high accuracy and precision to help the researchers in this field to make their study more effective, but all these technological advancements are still quite far away from the reach of the general public. 
+There are a lot of doctors and researchers doing their best in this field of medical science, there are Machine Learning models present with very high accuracy and precision to help the researchers in this field to make their study more effective, but all these technological advancements are still quite far away from the reach of the general public. 
 
 There are still very less or no technological resources which can add some value to the lives of people who know very little about such disorders.
 
 To tackle this issue, we have created a web-based skin disease predictor which can be used as a native application by the users to predict their skin disorders just by uploading a picture of their skin using a machine learning model trained on the top of TensorflowJS. This app also supports real-time detection of skin diseases by which users can directly use their cameras to focus on their textured areas and get instant results. 
 
 Further, this application also recommends nearby doctors automatically by using their current location. This app has the ability to predict over 10 skin diseases quite accurately.
+
+# Do we even need this application?
+
+Skin diseases are among the most common health problems in humans. Considering their significant impact on the individual, the family, the social life of patients, and their heavy economical burden, the public health importance of these diseases is underappreciated. [Cite](https://pubmed.ncbi.nlm.nih.gov/19254651/)
+
+[According to a survey](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.) skin disorders increase with age and are more frequent in men (72.3 percent) than in women (58.0 percent). Nearly two-thirds of the affected people are unaware of their abnormal skin conditions.
+
+With **Infinity-SknCure** people get an opportunity to self-diagnose their skin disorders from the comfort of their home. Skin examination offers an opportunity to screen people and to identify multiple conditions in a single visit. An integrated approach in communities and schools can potentially reduce costs and cut down delays in diagnosis as well as promote skin health for all.
 
 # Get Started Here
 
@@ -37,6 +45,11 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Fast, scaleable and lightweight, works on slow networks too.
 * Runs on users' browsers, which means there's no use of any additional or external hardware.
 
+## How successful is the model?
+
+* The model has been trained on over 1500 images which were iterated 200 times each.
+* The model is trained keeping in mind the various skin types (normal, dry, oily, combination, etc.), colors (white, black, brown, porcelain, ivory, sand, beige, etc.), body-parts (scalp, forehead, ears, nose, cheeks, lips, chin, neck, chest, back, arms, hands, palms, reproductive organs (both male and female), thighs, feet and toes). 
+
 ## Diseases listed in the model - 
 * Acne
 * Herpes Zoster
@@ -49,13 +62,14 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Melanoma
 * Urticaria
 
-## Images
-<!--
-<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/1.jpg"></p>
-<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/2.png"></p>
-<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/3.jpg"></p>
-<p display="inline"><img src="https://github.com/ishubham21/infinity-skncure/blob/master/imgs/screenshots/4.jpg"></p>
--->
+# Future Scope
+
+We're looking forward to expanding the model to cover more diseases for the prediction. We're also working towards making it more user-friendly by adding various functions some of which are listed below - 
+
+* Making chat feature more user-friendly by providing the feature of replying in threads.
+* Providing in-app tips to users for their respective identified disease. 
+* Enabling the users to sign in and measure the progress they've made towards healthy skin.
+
 # Sources for dataset -
 
 ## We've used the following websites to prepare the dataset for this app
@@ -63,7 +77,3 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Dermnet NZ - [https://dermnetnz.org](https://dermnetnz.org)
 * DermIS - [https://dermis.net](https://dermis.net)
 * Dermatology Atlas - [http://www.atlasdermatologico.com.br/browse.jsf](http://www.atlasdermatologico.com.br/browse.jsf)
-
-# Future Scope
-
-We're looking forward to expand the model to cover more diseases for the prediction.
