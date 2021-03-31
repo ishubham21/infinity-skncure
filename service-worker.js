@@ -3,10 +3,7 @@
 var precacheConfig = [["README.md","2e6301817dbc3566d533226cf73bcdce"],["css/style.css","5dee2af854ebcca4c8363f1542883290"],["imgs/loader.gif","b5436c1601cac397ce561797980c6d18"],["imgs/logo.png","3380a9b90ccd89bbc3924fc65f925fab"],["import.html","6b48bc26f3e74f3ef1a858cf34dd3d65"],["index.html","2a7b9c3277202ed69c4e052496a1ddb7"],["infinity-connect/firebase.json","f2ccad97687d5e9fbd548d460de85704"],["infinity-connect/firestore.rules","a1d350e20a1e4bcf9b1dd9fb46008d51"],["infinity-connect/functions/index.js","d41d8cd98f00b204e9800998ecf8427e"],["infinity-connect/functions/package.json","a6a0eaaf83fe2224645ab9470608fb14"],["infinity-connect/public/firebase-messaging-sw.js","c4d819720a69d21a8412a66065d77edd"],["infinity-connect/public/images/profile_placeholder.png","35dc32aff294a91ed31f220e29d095a1"],["infinity-connect/public/index.html","f3539b71773425bad1da8c8391b0793f"],["infinity-connect/public/manifest.json","8605220b4995bbf690da65f59487106c"],["infinity-connect/public/scripts/main.js","84dcece896f7340e914d04cffdc3dc47"],["infinity-connect/public/styles/main.css","271bc0c51bb1bb5d3b6dceaf7268756a"],["infinity-connect/storage.rules","16331eedb91eb1cd7ed3e970cb55eea9"],["js/app.js","026ff7816ea6e73c2184f9cba509b9bf"],["js/function.js","447da2d86eff279c169b6768a3efd470"],["js/jquery.min.js","62e5db8213996106ad22d99bb23ed48d"],["js/sketch.js","28d5a43b1b02c8bcf95a9dfba531d8f2"],["manifest.json","c2ae84dfc6809fd4128227e1bf308490"],["ml-js/p5.dom.min.js","4c712788a1f1ede01079548b34ca61b8"],["ml-js/p5.sound.min.js","a88e3f7616266d9eb8db2192714ae21f"],["model/metadata.json","07dac6554097248f580e0606727c1f6b"],["model/model.json","8461622a055699c2c65eb4d0835954b7"],["realTime.html","2459325059784c340578d9ce91f6ac0d"],["searchDoc.html","2cd47af33794b825d560ec2977d307bd"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
-
 var ignoreUrlParametersMatching = [/^utm_/];
-
-
 
 var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
@@ -222,10 +219,3 @@ self.addEventListener('fetch', function(event) {
     }
   }
 });
-
-
-
-
-
-
-
