@@ -12,14 +12,6 @@ To tackle this issue, we have created a web-based skin disease predictor which c
 
 Further, this application also recommends nearby doctors automatically by using their current location. This app has the ability to predict over 10 skin diseases quite accurately.
 
-# Do we even need this application?
-
-Skin diseases are among the most common health problems in humans. Considering their significant impact on the individual, the family, the social life of patients, and their heavy economical burden, the public health importance of these diseases is underappreciated. [Cite](https://pubmed.ncbi.nlm.nih.gov/19254651/)
-
-[According to a survey](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.) skin disorders increase with age and are more frequent in men (72.3 percent) than in women (58.0 percent). Nearly two-thirds of the affected people are unaware of their abnormal skin conditions.
-
-With **Infinity-SknCure** people get an opportunity to self-diagnose their skin disorders from the comfort of their home. Skin examination offers an opportunity to screen people and to identify multiple conditions in a single visit. An integrated approach in communities and schools can potentially reduce costs and cut down delays in diagnosis as well as promote skin health for all.
-
 # Get Started Here
 
 You can use this link to navigate through the website- [Infinity SknCure Website](https://ishubham21.github.io/infinity-skncure) 
@@ -30,7 +22,6 @@ You can use this link to navigate through the website- [Infinity SknCure Website
  * In the browser settings, search for the 'Add to home screen'/'Install App' option and tap it.
  * Choose your desired name for the app and tap 'done'. 
  * Web-App will be visible on your home screen.
-
 
 # Features
 
@@ -61,6 +52,24 @@ You can use this link to navigate through the website- [Infinity SknCure Website
 * Eczema
 * Melanoma
 * Urticaria
+
+# Do we even need this application?
+
+Skin diseases are among the most common health problems in humans. Considering their significant impact on the individual, the family, the social life of patients, and their heavy economical burden, the public health importance of these diseases is underappreciated. [Cite](https://pubmed.ncbi.nlm.nih.gov/19254651/)
+
+[According to a survey](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.) skin disorders increase with age and are more frequent in men (72.3 percent) than in women (58.0 percent). Nearly two-thirds of the affected people are unaware of their abnormal skin conditions.
+
+With **Infinity-SknCure** people get an opportunity to self-diagnose their skin disorders from the comfort of their home. Skin examination offers an opportunity to screen people and to identify multiple conditions in a single visit. An integrated approach in communities and schools can potentially reduce costs and cut down delays in diagnosis as well as promote skin health for all.
+
+## Research 
+
+## Testimonials
+
+* A great application to serve the underprivileged group with a nice implementation.
+
+~ Dr. S.C. Jain (Professor, Computer Science Department, Rajasthan Technical University, Kota)
+
+
 
 # Future Scope
 
