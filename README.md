@@ -69,7 +69,7 @@ With **Infinity-SknCure** people get an opportunity to self-diagnose their skin 
 * [Science Daily Journals](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.)
 * [WHO neglected diseases](https://www.who.int/neglected_diseases/zoonoses/en/)
 * [National Center for Biotechnology Information](https://pubmed.ncbi.nlm.nih.gov)
-* 
+
 
 
 ## Testimonials
