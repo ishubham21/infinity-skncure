@@ -1,0 +1,50 @@
+{
+    "name": "Infinity SknCure",
+    "short_name": "Infinity-SknCure",
+    "background_color": "#fff",
+    "theme_color": "#232323",
+    "description": "A web-based Skin Disease Classifier that can detect over 12 skin disorders and recommend nearby doctors.",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "imgs/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "imgs/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "categories": [
+        "skin disease classifier",
+        "education",
+        "medical",
+        "image processing"
+    ],
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://ishubham21.github.io/infinity-skncure/manifest.json"
+        }
+    ],
+    "prefer_related_applications": true,
+    "shortcuts": [
+        {
+            "name": "Infinity SknCure",
+            "url": "https://ishubham21.github.io/infinity-skncure/index.html",
+            "description": "A web-based Skin Disease Classifier that can detect over 12 skin disorders and recommend nearby doctors.",
+            "icons": [
+                {
+                    "src": "./imgs/logo.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

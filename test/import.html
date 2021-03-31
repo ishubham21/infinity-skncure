@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skin Disease Classifier</title>
+
+    <link href="./css/style.css" rel="stylesheet">
+
+    <script src="./js/jquery.min.js"></script>
+
+    <script src="./ml-js/p5.js"></script>
+    <script src="./ml-js/p5.dom.min.js"></script>
+    <script src="./ml-js/p5.sound.min.js"></script>
+    <script src="./ml-js/ml5.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="selectFile-container">
+        <div id="content" style="margin-top:2em">
+    
+            <form id="upload-file" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-label">
+                    Select Your Image
+                </label>
+    
+                <div class="image-section" style="display:none;">
+                    <div>
+                        <button type="button" id="btn-predict">Predict</button>
+                    </div>
+                    <img id="imagePreview" width="800px" height="600px" />
+                </div>
+    
+                <div class="input-inner">
+                    <input type="file" name="image" id="imageUpload" accept="image/*" title=" ">
+                </div>
+            </form>
+    
+        </div>
+    </div>
+
+    <div id="details-pop">
+        <div class="cross">
+            <span></span>
+            <span></span>
+        </div>
+
+        <p>Here are your results...</p>
+        
+        <div class="result-loader"></div>
+
+        <p class="result-text"></p>
+
+        <a href="searchDoc.html" class="hide-me"><button class="suggest-doc">Want us to suggest a doctor?</button></a>
+    </div> 
+
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>

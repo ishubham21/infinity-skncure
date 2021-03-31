@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skin Disease Classifier</title>
+
+</head>
+<body>
+    <script>
+        if (window.navigator.geolocation) {
+                window.navigator.geolocation.getCurrentPosition(getPosition)
+            }
+            else {
+                alert('Geolocation not supported by your browser')
+            }
+
+            function getPosition(position) {
+                computeCity(position.coords.latitude, position.coords.longitude)
+            }
+
+            //using opencage API's data which will tell us about the city name from coordinates
+            function computeCity(lati, long) {
+                fetch(`https://api.opencagedata.com/geocode/v1/json?q=${lati}+${long}&key=7d0266b0bdde4185b5fb4a9bbf45de2a`)
+                    .then(res => res.json())
+                    .then(location => {
+                        findDoctors(location.results[0].components.state_district)
+                    })
+                    .catch(() => {
+                        alert('Error reported from server, maybe try later?')
+                    })
+            }
+
+            //using openweathermap API to get city via reverse geocoding
+            function findDoctors(city) {
+                var iframe = document.querySelector('iframe')
+                window.location = `https://www.google.com/search?q=skin+doctors+in+${city}`
+            }
+    </script>
+</body>
+</html>
