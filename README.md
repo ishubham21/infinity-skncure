@@ -59,17 +59,24 @@ Skin diseases are among the most common health problems in humans. Considering t
 
 [According to a survey](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.) skin disorders increase with age and are more frequent in men (72.3 percent) than in women (58.0 percent). Nearly two-thirds of the affected people are unaware of their abnormal skin conditions.
 
-With **Infinity-SknCure** people get an opportunity to self-diagnose their skin disorders from the comfort of their home. Skin examination offers an opportunity to screen people and to identify multiple conditions in a single visit. An integrated approach in communities and schools can potentially reduce costs and cut down delays in diagnosis as well as promote skin health for all.
+With **Infinity-SknCure** people get an opportunity to self-diagnose their skin disorders from the comfort of their home. It offers an opportunity to screen people and to identify multiple conditions on a single platform. An integrated approach in communities and schools can potentially reduce costs and cut down delays in diagnosis as well as promote skin health for all.
 
-## Research 
+[Reports](https://www.canwelivebetter.bayer.com/health/tanning-delusion-why-do-we-ignore-risks-skin-cancer) also point that men are very less likely to use sunscreens which is a major reason why many people suffer from skin cancers and it again points towards the associated stigmas and with this application, we want to fight these social stigmas.
+
+## This app is built on the basis of previous studies conducted in this field
+
+* [US National Library of Medicine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5718374/)
+* [Science Daily Journals](https://www.sciencedaily.com/releases/2019/03/190320102041.htm#:~:text=The%20most%20common%20diagnoses%20were,of%20their%20abnormal%20skin%20findings.)
+* [WHO neglected diseases](https://www.who.int/neglected_diseases/zoonoses/en/)
+* [National Center for Biotechnology Information](https://pubmed.ncbi.nlm.nih.gov)
+* 
+
 
 ## Testimonials
 
 * A great application to serve the underprivileged group with a nice implementation.
 
-~ Dr. S.C. Jain (Professor, Computer Science Department, Rajasthan Technical University, Kota)
-
-
+~ Dr S.C. Jain (Professor, Computer Science Department, Rajasthan Technical University, Kota)
 
 # Future Scope
 
