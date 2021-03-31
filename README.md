@@ -72,8 +72,6 @@ With **Infinity-SknCure** people get an opportunity to self-diagnose their skin 
 * [WHO neglected diseases](https://www.who.int/neglected_diseases/zoonoses/en/)
 * [National Center for Biotechnology Information](https://pubmed.ncbi.nlm.nih.gov)
 
-
-
 ## Testimonials
 
 * A great application to serve the underprivileged group with a nice implementation.
