@@ -87,9 +87,6 @@ We're looking forward to expanding the model to cover more diseases for the pred
 * Enabling the users to sign in and measure the progress they've made towards healthy skin.
 
 # Sources for dataset -
-
-## We've used the following websites to prepare the dataset for this app
-
 * Dermnet NZ - [https://dermnetnz.org](https://dermnetnz.org)
 * DermIS - [https://dermis.net](https://dermis.net)
 * Dermatology Atlas - [http://www.atlasdermatologico.com.br/browse.jsf](http://www.atlasdermatologico.com.br/browse.jsf)
