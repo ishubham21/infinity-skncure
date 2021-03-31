@@ -12,16 +12,18 @@ To tackle this issue, we have created a web-based skin disease predictor which c
 
 Further, this application also recommends nearby doctors automatically by using their current location. This app has the ability to predict over 10 skin diseases quite accurately.
 
+We've also included a feature of global chat within this application to help the users in posting their queries of each kind and get their doubts resolved.
+
 # Get Started Here
 
 You can use this link to navigate through the website- [Infinity SknCure Website](https://ishubham21.github.io/infinity-skncure) 
 
 ## Want to use the Progressive Web App?
 
- * Head on to the same website mentioned above on your mobile phone.
- * In the browser settings, search for the 'Add to home screen'/'Install App' option and tap it.
- * Choose your desired name for the app and tap 'done'. 
- * Web-App will be visible on your home screen.
+ * Head on to the same website mentioned above on your device.
+ * In the browser options, search for the 'Add to home screen'/'Install App' option and tap it. (You'll find an install button in the address bar if you're using Chrome on windows/mac).
+ * Wait for the device to install the app. 
+ * An app with the name **Infinity-Skncure** will be visible on your home screen.
 
 # Features
 
